@@ -7,3 +7,5 @@ x2, y2 = point2
 print(f"x1: {x1}, y1: {y1}\n,x2: {x2}, y2: {y2}")
 distance = ((x2-x1)**2 + (y2-y1)**2) ** 0.5
 print("distance between points: ", distance)
+(x3, y3) = ((x1+x2)/2, (y1+y2)/2)
+print(f"midpoint: ({x3}, {y3})")
